@@ -93,7 +93,7 @@ element.style {
 
 .index-navbar-2-wrapper .navbar .dropdown:hover .dropdown-menu{
    display: initial;
-   margin-top: 55px !important;
+   margin-top: 46px !important;
    margin-right: 100px !important;
 }
 
@@ -119,6 +119,118 @@ element.style {
 .index-carousel-wrapper .carousel-indicators .active{
     background-color: white;
 }
+
+.dropdown button a:hover{
+    color: white;
+}
+
+.dropdown button:hover{
+    color: white !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.aaa:hover{
+    background-color: #00A3C8;
+}
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0rem rgb(13 110 253 / 25%);
+}
+
+.accordion-button:not(.collapsed) {
+    color: white;
+    background-color: #00A3c8;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -240,6 +352,13 @@ element.style {
     .col-sm-1 {
         flex: 0 0 auto;
         width: 8.33333333%;
+    }
+    .bbb{
+        display: inline-block !important;
+        text-align: center;
+    }
+    .ccc{
+        margin-bottom: 8px;
     }
  
 }
@@ -365,7 +484,13 @@ element.style {
     .tooltip-icon-wrapper{
         display: none;
     }
- 
+    .bbb{
+        display: inline-block !important;
+        text-align: center;
+    }
+    .ccc{
+        margin-bottom: 8px;
+    }
  }
 
 @media (max-width: 767.98px) {
@@ -466,6 +591,14 @@ element.style {
         display: none;
     }
 
+    .bbb{
+        display: inline-block !important;
+        text-align: center;
+    }
+    .ccc{
+        margin-bottom: 8px;
+    }
+
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -544,6 +677,13 @@ flex-direction: column;
 .w{
     display: none;
 }
+.bbb{
+    display: inline-block !important;
+    text-align: center;
+}
+.ccc{
+    margin-bottom: 8px;
+}
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -616,7 +756,7 @@ flex-direction: column;
     .navbar-expand-xl .navbar-collapse {
         display: flex!important;
         flex-basis: auto;
-        margin-bottom: 26px; 
+        margin-bottom: 0; 
         margin-left: auto;   
         justify-content: end;
     }
