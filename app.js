@@ -7,7 +7,7 @@ function decrease(){
     let num = parseInt(document.querySelector('#txt').value);
     num--;
     if (num<0){
-        return
+        return 
     }
 
     document.querySelector('#txt').value = num;

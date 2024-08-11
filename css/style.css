@@ -242,7 +242,10 @@ element.style {
 
 
 
-@media (max-width: 475.98px) {
+@media (min-width: 50px) and (max-width: 575.98px) {
+    .nav{
+        font-size: 11px !important;
+    }
     .block{
    
         margin-left: 20% !important;
@@ -254,16 +257,7 @@ element.style {
     .c{
         display: none !important;
       }
-      .navbar {
-        position: relative;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center !important;
-        justify-content: space-between;
-        padding-top: 0;
-        padding-bottom: 0;
-        
-    }
+   
     .row{
         width: 98%;
     }
@@ -359,24 +353,7 @@ element.style {
     }
     .ccc{
         margin-bottom: 8px;
-    }
- 
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 575.98px) { 
+    } 
     .block{
    
         margin-left: 20% !important;
@@ -393,7 +370,7 @@ element.style {
         display: flex;
         flex-wrap: wrap;
         align-items: center !important;
-        justify-content: space-between;
+        justify-content: center;
         padding-top: 0;
         padding-bottom: 0;
         
@@ -493,7 +470,10 @@ element.style {
     }
  }
 
-@media (max-width: 767.98px) {
+@media (min-width: 576) and (max-width: 767.98px) {
+    .nav{
+        font-size: 12px !important;
+    }
     .block{
         text-align: center !important;
         margin-left: 20% !important;
@@ -510,7 +490,7 @@ element.style {
         display: flex;
         flex-wrap: wrap;
         align-items: center !important;
-        justify-content: space-between;
+        justify-content: center !important;
         padding-top: 0;
         padding-bottom: 0;
         
@@ -616,7 +596,7 @@ element.style {
         display: flex;
         flex-wrap: wrap;
         align-items: center !important;
-        justify-content: space-between;
+        justify-content: center !important;
         padding-top: 0;
         padding-bottom: 0;
         margin-left: 70px;
